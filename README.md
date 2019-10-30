@@ -7,7 +7,7 @@
 但是关于验证数字签名的代码的部分，有一些暂时没有解决的问题。
 
 
-使用：输入一个文件夹路径，自动扫描该文件夹内的所有DLL
+使用：输入一个文件夹路径，自动扫描该文件夹内的所有DLL（32位DLL）
 
 The idea of this enlightening feature comes from jiang ye, who is in xue college. Thanks for your guidance.
 The DLL static heuristic detection, the use of three characteristics are: there are three exported function address the same, there are three functions of the same size address adjacent, exported function name the same.
@@ -17,4 +17,4 @@ Therefore, it is necessary to improve the code about verifying digital signature
 But there are some unresolved issues with the part of the code that verifies digital signatures.
 
 
-Use: enter a folder path and automatically scan all DLLS in the folder
+Use: enter a folder path and automatically scan all DLLS in the folder（32-bit DLL）
